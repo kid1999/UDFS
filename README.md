@@ -1,8 +1,8 @@
 # UDFS
-Implementation of "UDFS: Lightweight Representation-Driven Robust Traffic Classification for the Open World"
+Implementation of "UDFS: Lightweight Representation-Driven Robust Traffic Classification"
 
 
-An open-set encrypted traffic classification system based on a Flow Transformer and Adaptive Prototypical Learning. This implementation is designed to identify both known and unknown website traffic.
+This repository provides the code and dataset of UDFS for encrypted traffic analysis. It includes the implementation of the **Up-Down Flow Sequence (UDFS)** representation, which compresses traffic traces into discriminative flow-level sequences, as well as an adaptive threshold mechanism for enhancing class-specific discriminability. The repository also contains scripts for training and evaluation on both coarse-grained and fine-grained datasets, supporting experiments under concept drift and open-world scenarios.
 
 ![overview](overview.png)
 
