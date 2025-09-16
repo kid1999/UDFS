@@ -39,7 +39,7 @@ set_seed(42)
 # 1. Configuration
 # =========================
 TRAIN_PKL = "../datasets/github10_20250303.pkl"
-TEST_PKL  = "../datasets/github10_20250502.pkl"
+TEST_PKL  = "../datasets/github100.pkl"
 
 # --- Log and Model Output ---
 SAVE_DIR = "./output"
@@ -54,7 +54,7 @@ THRESHOLDS_PATH    = os.path.join(SAVE_DIR, "dynamic_thresholds.pt") # Save dyna
 
 # Training Hyperparameters
 LR          = 1e-4
-EPOCHS      = 500
+EPOCHS      = 2000  # 500 when train baidu20(easy) dataset
 BATCH_SIZE  = 64
 
 # Transformer Model Hyperparameters
