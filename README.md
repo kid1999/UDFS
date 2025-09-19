@@ -1,22 +1,24 @@
 # UDFS
-Implementation of "UDFS: Lightweight Representation-Driven Robust Traffic Classification"
+Implementation of "UDFS: Lightweight Representation-Driven Robust Network Traffic Classification"
 
 
 This repository provides the code and dataset of UDFS for encrypted traffic analysis. It includes the implementation of the **Up-Down Flow Sequence (UDFS)** representation, which compresses traffic traces into discriminative flow-level sequences, as well as an adaptive threshold mechanism for enhancing class-specific discriminability. The repository also contains scripts for training and evaluation on both coarse-grained and fine-grained datasets, supporting experiments under concept drift and open-world scenarios.
 
 ![overview](overview.png)
 
-<!-- If you find this method helpful for your research, please cite our work:
+If you find this method helpful for your research, please cite our work:
 
 ```latex
-@inproceedings{cui2025taintemu,
-  title={TaintEMU: Decoupling Tracking from Functional Domains for Architecture-Agnostic and Efficient Whole-System Taint Tracking},
-  author={Cui, Lei and Xian, Youquan and Liu, Peng and Lu, Longjin},
-  booktitle={Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2},
-  pages={1235--1250},
-  year={2025}
+@misc{xian2025udfs,
+      title={UDFS: Lightweight Representation-Driven Robust Network Traffic Classification}, 
+      author={Youquan Xian and Xueying Zeng and Mei Huang and Aoxiang Zhou and Xiaoyu Cui and Peng Liu and Lei Cui},
+      year={2025},
+      eprint={2509.11157},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2509.11157}, 
 }
-``` -->
+```
 
 -----
 
